@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="mscstyl.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".menu-icon").click(function(){
+				$(".menu-icon").toggleClass("active")
+			})
+
+
+			$(".menu-icon").click(function(){
+				$(".sidebar").toggleClass("active")
+			})
+			$(".menu-icon").click(function(){
+				$(".sidebar1").toggleClass("active")
+			})
+
+
+		})
+	</script>
+	<title>Sidebar</title>
+</head>
+<body>
+	<div class="menu-icon">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div class="sidebar">
+		<a href="#"><img src="msclogo.png" style="width: 30vh;"></a>
+		<ul class="menu">
+			<li>
+			<h2> Alone - Alan Walker</h2>
+			<audio controls src="music1.mp3"></audio>
+			</li>
+			<li>
+			<h2>Unravel - Hatsune Miku</h2>
+			<audio controls src="music2.mp3"></audio></li>
+			<li>
+			<h2>This Game - NGNL </h2>
+			<audio controls src="music3.mp3"></audio></li>
+		</ul>
+	</div>
+
+	<div class="menu-icon">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
+	<div class="sidebar1">
+		<a href="#"><img src="msclogo.png" style="width: 30vh;"></a>
+		<ul class="menu">
+		<li>
+			<h2> Alone - Alan Walker</h2>
+			<audio controls src="music1.mp3"></audio>
+			</li>
+			<li>
+			<h2>Unravel - Hatsune Miku</h2>
+			<audio controls src="music2.mp3"></audio></li>
+			<li>
+			<h2>This Game - NGNL </h2>
+			<audio controls src="music3.mp3"></audio></li>
+		</ul>
+	</div>
+</body>
+</html>
